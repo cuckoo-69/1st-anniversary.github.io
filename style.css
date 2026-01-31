@@ -51,3 +51,39 @@ footer {
   margin-top: 40px;
   opacity: 0.6;
 }
+
+.final-screen {
+  margin-top: 80px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle, #1a1a2e, #0f0f14);
+  text-align: center;
+}
+
+.final-content {
+  animation: fadeIn 2.5s ease forwards;
+}
+
+.final-content h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.final-content p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
